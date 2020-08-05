@@ -68,6 +68,30 @@ theme_color="#0084ff">
       </nav>
 
 <!-- About me-->
+  <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v8.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="107370034408347"
+  theme_color="#0084ff">
+      </div>
 
 
     
@@ -76,18 +100,18 @@ theme_color="#0084ff">
           <div class="col-sm-8">
             <h2>About Us</h2>
             <h4>Technology Pioneers</h4>
-            <p>We are young ambitious and enthusiastic team of programmers. Capable of programming at the backend with databases and server as well as the front designing. 
+            <p>We are young ambitious and enthusiastic team of programmers. Capable of programming at the backend with databases and server as well as the front end designing. 
                 Languages include Javascript, PHP and Python to name a few.
                 
                 ​
                 
-                Started programming around the same age at 15 years old with pascal language and from their we were completely emerced into the magic that is coding and kept climbing the ladder of coding
+                 We have started programming around the same age at 15 years old with pascal language and from there we were completely immersed into the magic that is coding and kept climbing the ladder of coding.
                 
-                That initial interest in coding suddenly bloomed into passion and it entered many other fields such as cyber security and machine learning but  still return to the original
+                That initial interest in coding suddenly bloomed into passion and it entered many other fields such as cyber security and machine learning but  still returned to the original.
                 
                 ​
                 
-                Created various programs as you can see inside my portfolio
+                <br> Created various programs as you can see inside my portfolio.
                 
                 </p>
            
@@ -107,7 +131,7 @@ theme_color="#0084ff">
          
           <div class="col-sm-8">
             <h2>Our Values</h2>
-            <h4><strong>MISSION:</strong> To help young business owners or people get their product, service or name out there out</h4>
+            <h4><strong>MISSION:</strong> To help young business owners or people get their product or service  there out</h4>
             <p><strong>VISION:</strong> A better way to connect to your audience </p>
           </div>
         </div>
